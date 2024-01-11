@@ -40,10 +40,57 @@
     <area alt="Dobrogea" title="Dobrogea" href="dobrogea.html" coords="511,290,607,427" shape="rect"></area>
     <area alt="Moldova" title="Moldova" href="moldova.html" coords="368,119,513,263" shape="rect"></area>
 </map>
+</div>
+<nav class="contur">
+<div class="text"
+<center><font size="6">Regiuniile româniei</font></center>
+<p>De-a lungul timpului, în spațiul geografic pe care locuiesc sau au locuit populații românești, s-au conturat mai multe regiuni istorice care în decursul istoriei au aparținut în întregime sau parțial fie voievodatelor întemeiate în secolele al X-lea (pentru Transilvania) și al XIV-lea (Moldova, Țara Românească și Dobrogea), fie statelor vecine. Limitele și denumirile acestor regiuni cunoscute și sub numele de „țări” au evoluat în decursul vremii. Parțial sau în întregime, unele dintre ele au constituit, temporar sau mai durabil, și teritoriul României. Potrivit surselor istorice, toate sunt incluse în teritoriul Daciei antice, până la perioada daco-romană (regatele lui Burebista și Decebal). România nu are nicio revendicare teritorială asupra părților din regiunile istorice, aparținând statelor vecine.</p>
+</nav>
+</div>
+</div>
+<br>
+<div class="galerie-completa">
+    <img class="imgbuton" src="../src/img/back.png" id="back">
+    <div class="galerie">
+        <div>
+            <img src="../src/img/img3.jpg">
+            <img src="../src/img/img2.webp">
+            <img src="../src/img/img4.jpg">
         </div>
-		<nav class="contur">
-		<div class="text"
-		<center><font size="6">Regiuniile româniei</font></center>
-		<p>De-a lungul timpului, în spațiul geografic pe care locuiesc sau au locuit populații românești, s-au conturat mai multe regiuni istorice care în decursul istoriei au aparținut în întregime sau parțial fie voievodatelor întemeiate în secolele al X-lea (pentru Transilvania) și al XIV-lea (Moldova, Țara Românească și Dobrogea), fie statelor vecine. Limitele și denumirile acestor regiuni cunoscute și sub numele de „țări” au evoluat în decursul vremii. Parțial sau în întregime, unele dintre ele au constituit, temporar sau mai durabil, și teritoriul României. Potrivit surselor istorice, toate sunt incluse în teritoriul Daciei antice, până la perioada daco-romană (regatele lui Burebista și Decebal). România nu are nicio revendicare teritorială asupra părților din regiunile istorice, aparținând statelor vecine.
-    </body>
+        <div>
+            <img src="../src/img/img5.jpg">
+            <img src="../src/img/img6.jpg">
+            <img src="../src/img/img7.jpg">
+           </div>
+           <div>
+            <img src="../src/img/img8.jpg">
+            <img src="../src/img/img9.jpg">
+            <img src="../src/img/img10.jpg">
+            </div>
+        </div>
+    <img class="imgbuton "src="../src/img/next.png" id="next">
+</div>
+<script>
+    let scrollContainer=document.querySelector(".galerie");
+    let back= document.getElementById("back");
+    let next= document.getElementById("next");
+    next.addEventListener("click",()=>
+    {
+        scrollContainer.style.scrollBehavior="smooth";
+        scrollContainer.scrollLeft=scrollContainer.scrollLeft+400;
+    });
+    back.addEventListener("click",()=>
+    {
+        scrollContainer.style.scrollBehavior="smooth";
+        scrollContainer.scrollLeft=scrollContainer.scrollLeft-400;
+    });
+
+</script>
+
+</div>
+</body>
 </html>
+
+
+   
+    

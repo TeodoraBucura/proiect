@@ -12,3 +12,4 @@ document.getElementById("hamburger").addEventListener("click", () => {
 })
 //ia tot documentul pentru ca atunci cand se da scroll meniul hamburger sa fie inchis
 document.addEventListener("scroll", () => edge.style.right = "-400px")
+
